@@ -1,1 +1,3 @@
-# ultimate-monorepo-tutorial
+# Polyglot Tutorial
+
+Skeleton repository for polyglot tutorial project.
