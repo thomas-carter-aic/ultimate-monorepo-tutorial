@@ -1,3 +1,66 @@
-site_name: Polyglot Tutorial
-theme: material
-nav: []
+site_name: Ultimate Monorepo Tutorial
+theme:
+  name: material
+  palette:
+    primary: 'black'
+    accent: 'indigo'
+    scheme: 'default'
+    toggle:
+      icon: 'material/brightness-7'
+      name: 'Switch to dark mode'
+    scheme: 'slate'
+    toggle:
+      icon: 'material/brightness-4'
+      name: 'Switch to light mode'
+  font:
+    text: Roboto
+    code: Roboto Mono
+
+nav:
+  - Home: index.md
+  - Prerequisites: 00-prerequisites.md
+  - Environment Setup: 01-environment-setup.md
+  - Project Structure: 02-project-structure.md
+  - Core Implementations:
+      - Python: 03-core-implementations/python.md
+      - Go: 03-core-implementations/golang.md
+      - Rust: 03-core-implementations/rust.md
+      - Java: 03-core-implementations/java.md
+      - TypeScript/Node.js: 03-core-implementations/typescript-nodejs.md
+  - Integration: 04-integration.md
+  - Testing: 05-testing.md
+  - Deployment: 06-deployment.md
+
+markdown_extensions:
+
+  # Python Markdown
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+
+  # Python Markdown Extensions
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde

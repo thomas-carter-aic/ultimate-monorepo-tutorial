@@ -1,6 +1,6 @@
-# 🌐 Polyglot Project Tutorial
+# 🌐 Ultimate Monorepo Tutorial
 
-Welcome to the **Polyglot Project Tutorial**!  
+Welcome to the **Ultimate Monorepo Tutorial**!  
 This guide walks you through building a project using **Python, Go, Rust, Java, and TypeScript/Node.js**.
 
 ---
